@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntroduccionCleanArchitectureE2.ApplicationBusinessRules", "IntroduccionCleanArchitectureE2.ApplicationBusinessRules", "{027044F3-5ED5-4E4B-9D4A-97A237C982B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntroduccionCleanArchitectureE2.EnterpriseBusinessRules", "IntroduccionCleanArchitectureE2.EnterpriseBusinessRules", "{2E913EBE-1D4B-49AE-88A9-5D2067E08C33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntroduccionCleanArchitectureE2.InterfaceAdapters", "IntroduccionCleanArchitectureE2.InterfaceAdapters", "{DBF90E81-775D-4FBE-A155-B38698DD1664}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntroduccionCleanArchitectureE2.FrameworksAndDrivers", "IntroduccionCleanArchitectureE2.FrameworksAndDrivers", "{29E713A1-7DAC-4DFF-9FE5-C3FCEF20E7BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroduccionCleanArchitectureE2.NorthWindEntities", "IntroduccionCleanArchitectureE2.NorthWindEntities\IntroduccionCleanArchitectureE2.NorthWindEntities.csproj", "{C025849D-3B41-47C8-A8D9-1FE7D16C2262}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C025849D-3B41-47C8-A8D9-1FE7D16C2262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C025849D-3B41-47C8-A8D9-1FE7D16C2262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C025849D-3B41-47C8-A8D9-1FE7D16C2262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C025849D-3B41-47C8-A8D9-1FE7D16C2262}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C025849D-3B41-47C8-A8D9-1FE7D16C2262} = {2E913EBE-1D4B-49AE-88A9-5D2067E08C33}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42183A1C-6C77-46F7-8BDA-955641505DF9}
+	EndGlobalSection
+EndGlobal
