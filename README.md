@@ -1,6 +1,8 @@
 Ejemplo de LatinoNet sobre Clean Architecture.
 
-Fuente: https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+Fuente: 
+
+https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 
 Canal Ejemplo :
 
