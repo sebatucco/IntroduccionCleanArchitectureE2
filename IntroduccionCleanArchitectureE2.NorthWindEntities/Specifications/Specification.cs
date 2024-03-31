@@ -16,5 +16,4 @@ namespace IntroduccionCleanArchitectureE2.NorthWindEntities.Specifications
             return ExpressionnDelegate(entity);
         }
     }
-    }
 }
