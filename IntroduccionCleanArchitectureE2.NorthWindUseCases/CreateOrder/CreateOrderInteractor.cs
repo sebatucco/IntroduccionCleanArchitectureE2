@@ -20,7 +20,7 @@ namespace IntroduccionCleanArchitectureE2.NorthWindUseCases.CreateOrder
         {
             _orderDetailRepository = orderDetailRepository;
             _orderRepository = orderRepository;
-            _unitOfWork = unitOfWork;   
+            _unitOfWork = unitOfWork;
         }
         public async Task<int> Handle(CreateOrderInputPort request, CancellationToken cancellationToken)
         {
@@ -60,7 +60,6 @@ namespace IntroduccionCleanArchitectureE2.NorthWindUseCases.CreateOrder
                 throw new GeneralExceptions("Error al crear la orden", ex.Message);
             }
             return order.Id;
-           
         }
     }
 }

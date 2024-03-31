@@ -1,5 +1,7 @@
-crear la migracion
+Crear la migracion
 
 add-migration InitialCreate -p IntroduccionCleanArchitectureE2.NorthWindRepositoriesEFCore -c Context -o Migrations -s IntroduccionCleanArchitectureE2.NorthWindRepositoriesEFCore
 
 update-database -p IntroduccionCleanArchitectureE2.NorthWindRepositoriesEFCore -s IntroduccionCleanArchitectureE2.NorthWindRepositoriesEFCore
+
+FluenValidator
