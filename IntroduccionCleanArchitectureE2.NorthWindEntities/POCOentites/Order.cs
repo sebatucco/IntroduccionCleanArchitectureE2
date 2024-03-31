@@ -18,7 +18,7 @@ namespace IntroduccionCleanArchitectureE2.NorthWindEntities.POCOentites
         public string ShipPostalCode { get; set; }
         public DiscountType DiscountType { get; set; }
         public double Discount { get; set; }
-        public Shippingtype Shippingtype { get; set; }
+        public Shippingtype ShippingType { get; set; }
 
     }
 }
