@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IntroduccionCleanArchitectureE2.NorthWindEntities.POCOentites
 {
-    public class OderDetail
+    public class OrderDetail
     {
         public int OrderId { get; set; }
         public int ProductId { get; set; }
