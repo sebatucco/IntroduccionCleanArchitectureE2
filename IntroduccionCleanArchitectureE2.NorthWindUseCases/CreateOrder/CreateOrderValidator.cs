@@ -25,6 +25,6 @@ namespace IntroduccionCleanArchitectureE2.NorthWindUseCases.CreateOrder
 
             RuleFor(o => o.OrderDetails).Must(d => d != null && d.Any())
                 .WithMessage("Debe especificar los productos de la orden");
-;        }   
+        }   
     }
 }
