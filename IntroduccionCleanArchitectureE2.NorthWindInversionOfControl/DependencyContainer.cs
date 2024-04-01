@@ -14,7 +14,7 @@ namespace IntroduccionCleanArchitectureE2.NorthWindInversionOfControl
 {
     public static class DependencyContainer
     {
-        public static IServiceCollection AddServices(this IServiceCollection services, IConfiguration configuration) 
+        public static IServiceCollection AddServicesIntroduccionCleanArchitectureE2(this IServiceCollection services, IConfiguration configuration) 
         {
             services.AddDbContext<Context>(options => options.UseSqlServer(configuration.GetConnectionString("NorthWindDb")));
             services.AddScoped<IOrderRepository, OrderRepository>();

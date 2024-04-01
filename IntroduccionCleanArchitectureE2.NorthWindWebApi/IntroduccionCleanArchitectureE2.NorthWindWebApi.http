@@ -1,0 +1,6 @@
+@IntroduccionCleanArchitectureE2.NorthWindWebApi_HostAddress = http://localhost:5217
+
+GET {{IntroduccionCleanArchitectureE2.NorthWindWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
